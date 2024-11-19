@@ -1,0 +1,11 @@
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utilities.deps.json
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utilities.dll
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\bin\Debug\net8.0\Bulky.Utilities.pdb
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.AssemblyInfoInputs.cache
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.AssemblyInfo.cs
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.dll
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\refint\Bulky.Utilities.dll
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\Bulky.Utilities.pdb
+C:\Users\Imran\source\repos\Bulky\Bulky.Utilities\obj\Debug\net8.0\ref\Bulky.Utilities.dll

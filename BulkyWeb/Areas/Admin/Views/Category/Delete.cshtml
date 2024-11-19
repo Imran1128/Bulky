@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+
+@model Category
+<div class="container">
+    <h2>Delete Product</h2>
+    <div class="row ">
+        <form method="post">
+            @* <div asp-validation-summary="All"></div> *@
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Name"></label>
+                <input type="text" class="form-control" disabled asp-for="Name" />
+                @* <span asp-validation-for="Name"></span> *@
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="DisplayOrder"></label>
+                <input type="text" class="form-control" disabled asp-for="DisplayOrder" />
+                @* <span asp-validation-for="DisplayOrder"></span> *@
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-danger form-control">Delete</button>
+                </div>
+                <div class="col-6">
+                    <a class="btn btn-secondary form-control" asp-controller="Product" asp-action="Index">Back to Product</a>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+</div>
+

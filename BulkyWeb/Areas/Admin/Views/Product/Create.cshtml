@@ -1,0 +1,74 @@
+﻿@model Product
+<div class="container">
+    <h2>Create New Product</h2>
+    <div class="row ">
+        <form method="post">
+            <div asp-validation-summary="All"></div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="CategoryId"></label>
+                <select asp-items="ViewBag.CategoryList" class="form-control" asp-for="CategoryId">
+                    <option disabled selected>--Select Category</option>
+                </select>
+                <span asp-validation-for="CategoryId"></span>
+            </div>
+            <div  class="mb-3 row pt-1">
+                <label class="" asp-for="Title"></label>
+                <input type="text" class="form-control" asp-for="Title" />
+                <span asp-validation-for="Title"></span>
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Author"></label>
+                <input type="text" class="form-control" asp-for="Author" />
+                <span asp-validation-for="Author"></span>
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Description"></label>
+                <textarea type="text" class="form-control" asp-for="Description" ></textarea>
+                <span asp-validation-for="Description"></span>
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="ISBN"></label>
+                <input type="text" class="form-control" asp-for="ISBN" />
+                <span asp-validation-for="ISBN"></span>
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="ListPrice"></label>
+                <input type="text" class="form-control" asp-for="ListPrice" />
+                <span asp-validation-for="ListPrice"></span>
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price"></label>
+                <input type="text" class="form-control" asp-for="Price" />
+                <span asp-validation-for="Price"></span>
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price50"></label>
+                    <input type="text" class="form-control" asp-for="Price50" />
+                <span asp-validation-for="Price50"></span>
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price100"></label>
+                <input type="text" class="form-control" asp-for="Price100" />
+                <span asp-validation-for="Price100"></span>
+            </div>
+
+
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-primary form-control">Create</button>
+                </div>
+                <div class="col-6">
+                    <a class="btn btn-secondary form-control" asp-controller="Product" asp-action="Index">Back to Product</a>
+                </div>
+            </div>
+            
+        </form>
+        @section Scripts{
+            @{<partial name="_ValidationScriptsPartial" />}
+        }
+    </div>
+</div>

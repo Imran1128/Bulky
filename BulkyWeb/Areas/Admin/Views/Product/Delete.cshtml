@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+
+@model Product
+<div class="container">
+    <h2>Delete Product</h2>
+    <div class="row ">
+        <form method="post">
+            @* <div asp-validation-summary="All"></div> *@
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Title"></label>
+                <input disabled type="text" class="form-control" asp-for="Title" />
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Description"></label>
+                <textarea disabled type="text" class="form-control" asp-for="Description"></textarea>
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Author"></label>
+                <input disabled type="text" class="form-control" asp-for="Author" />
+            </div>
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="ISBN"></label>
+                <input disabled type="text" class="form-control" asp-for="ISBN" />
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="ListPrice"></label>
+                <input disabled type="text" class="form-control" asp-for="ListPrice" />
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price"></label>
+                <input disabled type="text" class="form-control" asp-for="Price" />
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price50"></label>
+                <input disabled type="text" class="form-control" asp-for="Price50" />
+            </div>
+
+            <div class="mb-3 row pt-1">
+                <label class="" asp-for="Price100"></label>
+                <input disabled type="text" class="form-control" asp-for="Price100" />
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-danger form-control">Delete</button>
+                </div>
+                <div class="col-6">
+                    <a class="btn btn-secondary form-control" asp-controller="Product" asp-action="Index">Back to Product</a>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+</div>
+
